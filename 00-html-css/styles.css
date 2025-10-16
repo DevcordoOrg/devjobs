@@ -355,7 +355,7 @@ article {
   border: 1px solid rgba(255, 255, 255, .3);
   border-radius: 1rem;
 
-  article {
+  .job-listing-card {
     background: none;
     box-shadow: none;
     border-radius: 0;
@@ -365,6 +365,10 @@ article {
     display: flex;
     align-items: start;
     gap: 1rem;
+
+    &.is-hidden {
+      display: none;
+    }
 
     small {
       font-size: .875rem;
@@ -423,5 +427,85 @@ article {
     color: #ffffff69;
     background: #4caf4fc0;
     pointer-events: none;
+  }
+}
+
+/**Jobs details*/
+.job-detail{
+  margin: 0 auto;
+  padding: 0;
+  height: auto !important;
+  width: 70%;
+  max-width: 1280px;
+  margin-block: 2rem;
+
+  article {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+
+    display: flexbox;
+    align-items: start;
+    gap: 1rem;
+
+    text-align: justify;
+    
+    
+    div {
+      padding-top: 2rem;
+
+      small {
+          font-size: .875rem;
+          opacity: .75;
+        }  
+    
+      p,
+      
+      ul {
+        list-style: none;
+        padding-top: .5rem;
+        color: var(--text-muted);
+      }
+
+      li::before {
+        content: "\F26B";
+        display: inline-block;
+        margin-right: .5em;
+        color: var(--primary-light);
+      }
+
+      h3 {
+        font-weight: 700;
+      }
+    }
+      
+  }
+}
+
+select {
+  display: block;
+  padding: 0.625rem 1.25rem;
+  background-color: #242d3a;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 0.675rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: all 0.2s;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='icon icon-tabler icons-tabler-outline icon-tabler-chevron-down'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M6 9l6 6l6 -6' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding-right: 2.5rem;
+
+  &:hover{
+    background-color: var(--primary-hover);
+    color: white;
+  }
+
+  &:focus{
+    outline: 2px solid #1173d4;
+    outline-offset: 2px; 
   }
 }
