@@ -1,3 +1,19 @@
+const jobsListingSection = document.querySelector('.jobs-listings');
+jobsListingSection?.addEventListener('click', (event) => {
+    const element = event.target;
+
+    if (element.classList.contains('button-apply-job')){
+        element.textContent = "¡Aplicado!";
+        element.classList.add("is-applied");
+        element.disabled = true;
+    }
+});
+
+/**________________________________________________________________________________ */
+
+/** Comentarios con otros eventos de utilidad                                       */
+/**________________________________________________________________________________ */
+
 /***********************************************************
  * Recuperar el primer boton que cumpla con la llamda      *
  ***********************************************************/ 
@@ -42,14 +58,38 @@
  *                                                                               *
  *********************************************************************************/
 
-const jobsListingSection = document.querySelector('.jobs-listings');
+/**
+ * **********************************************************************
+ * Formas de recuperar eventos de un documento                          *
+ * **********************************************************************
+ 
+const searchInput = document.querySelector("#empleos-search-input");
 
-jobsListingSection?.addEventListener('click', (event) => {
-    const element = event.target;
+searchInput.addEventListener("input", () => {
+    console.log(searchInput.value);
+})
 
-    if (element.classList.contains('button-apply-job')){
-        element.textContent = "¡Aplicado!";
-        element.classList.add("is-applied");
-        element.disabled = true;
-    }
+searchInput.addEventListener("blur", () => {
+    console.log("Se dispara cuando el input pierde el foco");
+})
+
+const searchForm = document.querySelector("#search-form");
+
+searchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    console.log(event.textContent);
+})
+
+document.addEventListener('keydown', (event) => {
+    console.log(event.key);
 });
+ */
+
+// fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+//     .then(response => {
+//         return response.json();
+//     })
+//     .then(json => {
+//         console.log(json);
+//     })
