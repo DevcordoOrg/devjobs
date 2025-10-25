@@ -1,0 +1,194 @@
+[
+    {
+        "id": "0199e8ea-cec7-765f-b92d-ea0a876a61cc",
+        "titulo": "Ingeniero de Software Senior",
+        "empresa": "Tech Solution Inc",
+        "ubicacion": "Remoto",
+        "descripcion": "Tech Solution Inc.está buscando un ingeniero de software senior altamentemente motivado y experimentado para unirse a nuestro equipo remoto. El candidato ideal tendrá una solidad formación en desarrollo de software, con experiencia en el diseño, desarrollo he implementación de soluciones de software escalables y de alto rendimiento. Cómo ingeniero de software senior, usted será responsable de liderar proyectos de desarrollo, mentorizar a ingenieros junior y colaborar con equipos multifuncionales para entregar productos de software de alta calidad.",
+        "data": {
+            "modalidad": "remoto",
+            "technology": "nodejs",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea19-414c-792b-9bba-390c9b9aff27",
+        "titulo": "Analista de Datos",
+        "empresa": "Data Driven Co",
+        "ubicacion": "Bogotá",
+        "descripcion": "Estamos buscando un analista de datos con experiencia en el manejo de grandes conjuntos de datos y herramientas de visualización. Se requiere conocimiento en SQL, Python y R.",
+        "data": {
+            "modalidad": "bogota",
+            "technology": "sql",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea19-689d-7878-b49b-7a0f9db45a36",
+        "titulo": "Desarrollador Full Stack",
+        "empresa": "Creative Minds Studio",
+        "ubicacion": "Medellin",
+        "descripcion": "Estamos buscando un desarrollador full stack con pasión por todo el ciclo de desarrollo y entregar al usuario una experiencia unica y agradable. A demás, con experiencia en Reac, Next.js, Vue.js, Express.js y Node.js.",
+        "data": {
+            "modalidad": "medellin",
+            "technology": "nodejs",
+            "nivel": "mid-level"
+        }            
+    },
+    {
+        "id": "0199ea19-8772-7d42-9b66-be066f10ed75",
+        "titulo": "Desarrollador de Aplicaciones Móviles",
+        "empresa": "Mobile Apps Ltd",
+        "ubicacion": "Cali",
+        "descripcion": "Estamos buscando un desarrollador de aplicaciones móviles con experiencia en desarrollo iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
+        "data": {
+            "modalidad": "cali",
+            "technology": "swift",
+            "nivel": "junior"
+        }
+    },
+    {
+        "id": "0199ea19-a93c-7c5e-89f4-f1fd6dc557e8",
+        "titulo": "Ingeniero DevOps",
+        "empresa": "Cloud Services SA",
+        "ubicacion": "Barranquilla",
+        "descripcion": "Estamos buscando un ingeniero de DevOps con experiencia en la gestión de infraestructura en la nube, automatización de procesos y herramientas de integración continua. Se requiere conocimiento en AWS, Azure o GCP.",
+        "data": {
+            "modalidad": "barranquilla",
+            "technology": "aws",
+            "nivel": "mid-level"
+        }
+    },
+    {
+        "id": "0199ea19-c89c-786c-935e-b972f5b29c2b",
+        "titulo": "Diseñador UX/UI",
+        "empresa": "UX Design Studio",
+        "ubicacion": "Cartagena",
+        "descripcion": "Estamos buscando un diseñador UX/UI con experiencia en la creación de interfaces de usuario y pasión por crear experiencias igitales excepcionales. Se requiere experiencia en Figma , diseño centrado en el usuario y colaboración con equipos de desarrollo",
+        "data": {
+            "modalidad": "cartagena",
+            "technology": "figma",
+            "nivel": "junior"
+        }
+    },
+    {
+        "id": "0199ea19-ec97-7fe7-b835-2ebd3e6937d8",
+        "titulo": "Administrador de Bases de Datos",
+        "empresa": "Secure Data Corp",
+        "ubicacion": "Remoto",
+        "descripcion": "Estamos buscando un administrador de base de datos con experiencia en PostgreSQL, MySQL, MSSQL, MongoDB, el candidao deberá asegurar la disponibilidad, seguridad y rendimiento de las bases de datos de la empresa.",
+        "data": {
+            "modalidad": "remoto",
+            "technology": "postgresql",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea1a-cd25-7d93-a5f3-85298034b610",
+        "titulo": "Especialista en Ciberseguridad",
+        "empresa": "SafeNet Solutions",
+        "ubicacion": "Remoto",
+        "descripcion": "Buscamos un especialista en ciberseguridad con conocimientos en protección de infraestructuras, análisis de vaulnerabilidades y respuesta ante incidentes. Se valorará experiencia con SIEM y certificaciones de seguridad.",
+        "data": {
+            "modalidad": "remoto",
+            "technology": "siem",
+            "nivel": "mid-level"
+        }
+    },
+    {
+        "id": "0199ea20-1218-7f93-acd5-b75e50d0f957",
+        "titulo": "Product Manager",
+        "empresa": "NextGen Technologies",
+        "ubicacion": "Armenia",
+        "descripcion": "Estamos buscando un Product Manager con experiencia en la definción y lanzamiento de productos digitales. Se requiere capacidad analítica, liderazgo y conocimiento en metodologías ágiles.",
+        "data": {
+            "modalidad": "armenia",
+            "technology": "scrum",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea20-2909-7571-9589-e788ed2fb449",
+        "titulo": "Frontend Developer",
+        "empresa": "Bright Web Studio",
+        "ubicacion": "Pereira",
+        "descripcion": "Buscamos un desarrollador frontend con experiencia en React, TypeScript y Tailwind CSS. Se valorará conocimiento en optimización de rendimiento y accesibilidad web.",
+        "data": {
+            "modalidad": "pereira",
+            "technology": "typescript",
+            "nivel": "junior"
+        }
+    },
+    {
+        "id": "0199ea23-ed92-74e2-8643-90e076f0d8d3",
+        "titulo": "Backend Developer",
+        "empresa": "APIWorks",
+        "ubicacion": "Bogotá",
+        "descripcion": "Estamos buscamos un desarrollador backend con experiencia en Node.js y TypeScript, Express.js y bases de datos NoSQL. Se requiere conocimiento en arquitectura de microservicios y buenas prácticas de desarrollo.",
+        "data": {
+            "modalidad": "bogota",
+            "technology": "nodejs",
+            "nivel": "mid-level"
+        }
+    },
+    {
+        "id": "0199ea28-2dd9-7bf1-99cb-8f84599b6589",
+        "titulo": "Ingeniero de Machine Learning",
+        "empresa": "AI Labs",
+        "ubicacion": "Remoto",
+        "descripcion": "Buscamos un ingeniero de machine learning con experiencia en modiles de predicción y procesamiento de datos. Se valorará conocimientos en TensorFlow, PyTorch, redes neuronales y MLOPs",
+        "data": {
+            "modalidad": "remoto",
+            "technology": "python",
+            "nivel": "mid-level"
+        }
+    },
+    {
+        "id": "0199ea2a-9751-7fe2-8d2a-5d94e29ff2b6",
+        "titulo": "QA Automation Engineer",
+        "empresa": "Quality First",
+        "ubicacion": "Manizales",
+        "descripcion": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress y Playwright. Conocimiento deseado en CI/CD y aseguramiento de calidad.",
+        "data": {
+            "modalidad": "manizales",
+            "technology": "selenium",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea2c-3f4e-7c5e-8f4e-3d6f4e2b9c1a",
+        "titulo": "Especialista en Marketing Digital",
+        "empresa": "Digital Growth Agency",
+        "ubicacion": "Remoto",
+        "descripcion": "Buscamos un especialista en marketing digital con experiencia en SEO, SEM, marketing de contenidos y gestión de redes sociales. Se valorará conocimiento en Google Analytics y herramientas de automatización de marketing.",
+        "data": {
+            "modalidad": "remoto",
+            "technology": "seo",
+            "nivel": "junior"
+        }
+    },
+    {
+        "id": "0199ea2e-6b1f-7d4e-9c3a-4e5f6a7b8c9d",
+        "titulo": "Arquitecto de Soluciones Cloud",
+        "empresa": "Cloud Innovators",
+        "ubicacion": "Medellin",
+        "descripcion": "Estamos buscando un arquitecto de soluciones cloud con experiencia en diseño e implementación de arquitecturas en la nube utilizando AWS, Azure o GCP. Se requiere conocimiento en seguridad, escalabilidad y costos en la nube.",
+        "data": {
+            "modalidad": "medellin",
+            "technology": "aws",
+            "nivel": "senior"
+        }
+    },
+    {
+        "id": "0199ea30-8c7d-7e2b-9a1c-2b3d4e5f6a7b",
+        "titulo": "Especialista en Soporte Técnico",
+        "empresa": "Tech Support Co",
+        "ubicacion": "Cali",
+        "descripcion": "Buscamos un especialista en soporte técnico con experiencia en resolución de problemas de hardware y software, atención al cliente y gestión de tickets. Se valorará conocimiento en redes y sistemas operativos.",
+        "data": {
+            "modalidad": "cali",
+            "technology": "itil",
+            "nivel": "junior"
+        }
+    }
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DevJobs - Empleos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Listado de empleos y filtros que te llevarán a encontrar el trabajo de tus sueños">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-code"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" /><path d="M14 4l-4 16" /></svg>
+            DevJobs
+        </h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="">Empleos</a>
+        </nav>
+        <div>
+            <devjobs-avatar
+                service="google"
+                username="www.marvel.com"
+                size="32">
+            </devjobs-avatar>
+            <devjobs-avatar
+                service="google"
+                username="dc.com"
+                size="32">
+            </devjobs-avatar>
+        </div>
+    </header>
+    <main>
+        <section class="jobs-search">
+            <h1>Encuentra tu proximo trabajo</h1>
+            <p>Explora miles de oportunidades en el sector tecnológico</p>
+
+            <form id="search-form" role="search">
+                <div class="search-bar">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+                    <input name="search" id="empleos-search-input" required type="text" placeholder="Buscar trabajos, empresas o habilidades">
+                </div>
+
+                <div class="search-filters">
+                    <select name="technology" id="filter-technology" class="filter">
+                            <option value="html">Html</option>
+                            <option value="react">React</option>
+                            <option value="vue">Vue.js</option>
+                            <option value="next">Next.js</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="python">Python</option>
+                            <option value="java">Java</option>
+                            <option value="csharp">C#</option>
+                            <option value="nodejs">Node.js</option>
+                            <option value="kotlin">Kotlin</option>
+                            <option value="flutter">Flutter</option>
+                            <option value="xamarin">Xamarin</option>
+                            <option value="mysql">MySQL</option>
+                            <option value="mssql">MsSQL</option>
+                            <option value="postgresql">PostgreSQL</option>
+                            <option value="Oracle">Oracle</option>
+                            <option value="mongodb">MongoDB</option>
+                            <option value="redis">Redis</option>
+                            <option value="firebase">Firebase</option>
+                    </select>
+
+                    <select name="location" id="filter-location" class="filter">
+                        <option value="">Ubicación</option>
+                        <option value="remoto">Remoto</option>
+                        <option value="bogota">Bogotá</option>
+                        <option value="manizales">Manizales</option>
+                        <option value="medellin">Medellín</option>
+                        <option value="pereira">Pereira</option>
+                        <option value="armenia">Armenia</option>
+                    </select>
+
+                    <select name="experience-level" id="filter-experience-level" class="filter">
+                        <option value="">Nivel de experiencia</option>
+                        <option value="junior">Junior</option>
+                        <option value="mid-level">Semi-senior</option>
+                        <option value="senior">Senior</option>
+                        <option value="lead">Lead</option>
+                    </select>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <h2>Resultados de la busqueda</h2>
+
+            <div class="jobs-listings">
+                <!-- Aqui se insertarán de forma dinámica los empleos -->
+            </div>
+        </section>
+        <nav class="pagination">
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+            </a>
+            <a class="is-active" href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+            </a>
+        </nav>
+    </main>
+    <footer>
+        <small>&copy; 2025 DevJobs. Todos los derechos resevados.</small>
+    </footer>
+</body>
+</html>
